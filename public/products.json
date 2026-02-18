@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Boho Floral Midi Dress",
+    "category": "Kid",
+    "price": 65.99,
+    "description": "Flowy and feminine, this midi dress features a delicate floral print on recycled polyester. Designed with a cinched waist and flutter sleeves for an effortless transition from day to night.",
+    "image": "https://i.ibb.co.com/23FKrCzs/cloth2.png",
+    "reviews": [],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Toddler Denim Overalls",
+    "category": "Women",
+    "price": 34.99,
+    "description": "Classic vintage-style denim overalls with adjustable straps. Built to last through every adventure, featuring reinforced stitching and easy-snap closures for quick changes.",
+    "image": "https://i.ibb.co.com/tMrn1myV/cloth6.png",
+    "reviews": [
+      {
+        "reviewerName": "Emma W.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=18",
+        "reviewText": "Super cute and easy to put on.",
+        "date": "2025-09-30",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Noah Z.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=19",
+        "reviewText": "Sturdy material for crawling toddlers.",
+        "date": "2025-10-10",
+        "rating": 4
+      },
+      {
+        "reviewerName": "Isabella V.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=20",
+        "reviewText": "Great quality denim.",
+        "date": "2025-10-25",
+        "rating": 5
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Silk Satin Evening Blouse",
+    "category": "Women",
+    "price": 55,
+    "description": "Add a touch of luxury to your outfit. This shimmering satin blouse features a high neckline and elegant pearl buttons on the cuffs. Pairs beautifully with tailored trousers.",
+    "image": "https://i.ibb.co.com/R44BT8mZ/cloth5.png",
+    "reviews": [
+      {
+        "reviewerName": "Olivia H.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=14",
+        "reviewText": "The pearl buttons are a lovely touch.",
+        "date": "2025-11-12",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Grace D.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=15",
+        "reviewText": "Fabric is delicate but looks very expensive.",
+        "date": "2025-11-18",
+        "rating": 4
+      },
+      {
+        "reviewerName": "Mia F.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=16",
+        "reviewText": "Perfect for evening dinners.",
+        "date": "2025-11-25",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Chloe B.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=17",
+        "reviewText": "Beautiful fit and color.",
+        "date": "2025-12-01",
+        "rating": 5
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Classic Oxford Button-Down",
+    "category": "Kid",
+    "price": 45,
+    "description": "A timeless essential for every wardrobe. Crafted from 100% premium cotton with a crisp finish, featuring a structured collar and tailored fit perfect for business casual or weekend outings.",
+    "image": "https://i.ibb.co.com/8L4yjV0d/cloth1.png",
+    "reviews": [
+      {
+        "reviewerName": "John Doe",
+        "reviewerImage": "https://i.pravatar.cc/150?u=1",
+        "reviewText": "Excellent fit and the fabric feels very premium.",
+        "date": "2025-12-01",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Alex Smith",
+        "reviewerImage": "https://i.pravatar.cc/150?u=2",
+        "reviewText": "Good for office wear, but needs ironing after every wash.",
+        "date": "2025-12-10",
+        "rating": 4
+      },
+      {
+        "reviewerName": "David W.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=3",
+        "reviewText": "Classy look. Highly recommend it.",
+        "date": "2025-12-15",
+        "rating": 5
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Graphic Print Cotton Tee",
+    "category": "Men",
+    "price": 18,
+    "description": "Cool and comfortable daily wear. This 100% cotton tee features a playful hand-drawn illustration. It's pre-shrunk to maintain its shape even after multiple washes.",
+    "image": "https://i.ibb.co.com/bcr3p0S/cloth9.png",
+    "reviews": [
+      {
+        "reviewerName": "Harper E.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=28",
+        "reviewText": "Fun design, my kid loves it.",
+        "date": "2025-08-20",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Evelyn Q.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=29",
+        "reviewText": "Good quality cotton.",
+        "date": "2025-09-05",
+        "rating": 4
+      },
+      {
+        "reviewerName": "Abigail J.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=30",
+        "reviewText": "Washes well without fading.",
+        "date": "2025-09-15",
+        "rating": 5
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Kids' Organic Cotton Hoodie",
+    "category": "Kid",
+    "price": 29.5,
+    "description": "Ultra-soft and durable hoodie made for active play. Features a fleece-lined interior, ribbed cuffs, and a kangaroo pocket. Non-toxic dyes ensure safety for sensitive skin.",
+    "image": "https://i.ibb.co.com/CKMQ0WLC/cloth3.png",
+    "reviews": [
+      {
+        "reviewerName": "Mike T.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=8",
+        "reviewText": "My son loves it! Very soft interior.",
+        "date": "2025-10-15",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Linda P.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=9",
+        "reviewText": "Great quality and washes well.",
+        "date": "2025-11-02",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Chris G.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=10",
+        "reviewText": "A bit thinner than expected but still good.",
+        "date": "2025-11-20",
+        "rating": 3
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Premium Leather Biker Jacket",
+    "category": "Men",
+    "price": 199.99,
+    "description": "The ultimate statement piece. Handcrafted from top-grain leather with quilted shoulder details and silver-tone hardware. This jacket develops a unique patina over time.",
+    "image": "https://i.ibb.co.com/0jGNKGYk/cloth10.png",
+    "reviews": [
+      {
+        "reviewerName": "Logan Y.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=31",
+        "reviewText": "Stunning jacket. The leather is premium.",
+        "date": "2025-12-01",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Jackson O.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=32",
+        "reviewText": "Heavy and warm. Fits like a glove.",
+        "date": "2025-12-08",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Sebastian T.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=33",
+        "reviewText": "The hardware feels very solid.",
+        "date": "2025-12-15",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Lucas F.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=34",
+        "reviewText": "Expensive, but it's a lifetime piece.",
+        "date": "2025-12-25",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Jack H.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=35",
+        "reviewText": "Got lots of compliments already.",
+        "date": "2025-12-30",
+        "rating": 5
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  },
+  {
+    "name": "Urban Tech Cargo Pants",
+    "category": "Kid",
+    "price": 89,
+    "description": "Modern streetwear meets functionality. These cargo pants are made from water-resistant nylon with multiple tactical pockets and an adjustable drawstring hem for a tapered look.",
+    "image": "https://i.ibb.co.com/sphzcmGd/cloth4.png",
+    "reviews": [
+      {
+        "reviewerName": "Mark J.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=11",
+        "reviewText": "Best cargo pants I've owned. Pockets are very useful.",
+        "date": "2025-12-20",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Ryan B.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=12",
+        "reviewText": "Stylish and functional. Great for rainy days.",
+        "date": "2025-12-22",
+        "rating": 5
+      },
+      {
+        "reviewerName": "Kevin S.",
+        "reviewerImage": "https://i.pravatar.cc/150?u=13",
+        "reviewText": "A bit pricey but the material is top-notch.",
+        "date": "2025-12-28",
+        "rating": 4
+      }
+    ],
+    "size": ["XL", "L", "M", "S", "XXL"]
+  }
+]
