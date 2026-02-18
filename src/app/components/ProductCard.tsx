@@ -1,8 +1,9 @@
+import { ProductCardProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <div className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col h-full">
       <div className="relative aspect-square overflow-hidden bg-gray-50 p-6 flex items-center justify-center">
@@ -37,7 +38,7 @@ const ProductCard = ({ product }) => {
           </span>
         </div>
 
-        <Link href={`/product/${product.id}`} className="block">
+        <Link href={`/${product.id}`} className="block">
           <h3 className="text-gray-900 font-semibold mb-2 line-clamp-1 group-hover:text-indigo-600 transition-colors">
             {product.title}
           </h3>
