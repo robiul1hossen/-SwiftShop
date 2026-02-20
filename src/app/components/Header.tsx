@@ -9,9 +9,7 @@ const Header = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchText: string = e.target.value;
     setSearch(searchText);
-    console.log("changed");
   };
-  console.log(search);
 
   return (
     <>
