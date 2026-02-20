@@ -5,22 +5,28 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
+import ProductDetailsSkeleton from "../components/ProductDetailsSkeleton";
 
 const ProductDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState<Product | null>(null);
   const [quantity, setQuantity] = useState(1);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    setIsLoading(true);
     const loadProducts = async () => {
       const res = await fetch(`https://fakestoreapi.com/products/${id}`);
       const data = await res.json();
       setProduct(data);
     };
     loadProducts();
+    setIsLoading(false);
   }, [id]);
 
-  return (
+  return isLoading ? (
+    <ProductDetailsSkeleton />
+  ) : (
     <>
       <Header />
       <div className="max-w-6xl mx-auto py-8 lg:py-12">
