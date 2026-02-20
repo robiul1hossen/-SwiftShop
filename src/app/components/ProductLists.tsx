@@ -10,6 +10,7 @@ const ProductLists = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [filtered, setFiltered] = useState<Product[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [priceRange, setPriceRange] = useState({ min: 0, max: 1000 });
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -56,12 +57,20 @@ const ProductLists = () => {
     loadProducts();
   };
 
+  useEffect(() => {
+    const filteredProducts = products.filter(
+      (product) =>
+        product.price >= priceRange.min && product.price <= priceRange.max,
+    );
+    setFiltered(filteredProducts);
+  }, [products, priceRange]);
+
   return (
     <div className="md:grid grid-cols-12 gap-6">
       {/* Sidebar */}
       <div className="col-span-3">
         <div className="sticky top-10">
-          <div className="w-full px-10 flex flex-col bg-white">
+          <div className="w-full px-10 flex flex-col bg-white min-h-screen">
             <div className="md:hidden">
               <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wider">
                 Search
@@ -98,6 +107,38 @@ const ProductLists = () => {
                 {category}
               </button>
             ))}
+            <div className="flex flex-col gap-2 mt-8">
+              <h3 className="text-sm font-bold text-gray-700  uppercase tracking-wider">
+                Price Range
+              </h3>
+              <div className="flex gap-2">
+                <input
+                  type="number"
+                  className="bg-white outline-none border-b px-2 py-2 rounded-xl w-1/2 shadow-2xl"
+                  value={priceRange.min}
+                  onChange={(e) =>
+                    setPriceRange({
+                      ...priceRange,
+                      min: Number(e.target.value),
+                    })
+                  }
+                  placeholder="Min Price"
+                />
+
+                <input
+                  type="number"
+                  className="bg-white outline-none border-b px-2 py-2 rounded-xl w-1/2 shadow-2xl"
+                  value={priceRange.max}
+                  onChange={(e) =>
+                    setPriceRange({
+                      ...priceRange,
+                      max: Number(e.target.value),
+                    })
+                  }
+                  placeholder="Max Price"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

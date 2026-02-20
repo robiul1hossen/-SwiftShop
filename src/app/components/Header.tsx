@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const Header = () => {
-  const [cartCount, setCartCount] = useState(0);
+  const [cartCount, setCartCount] = useState(1);
   const [search, setSearch] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -39,8 +39,6 @@ const Header = () => {
           </Link>
 
           <form className="hidden md:flex flex-1 max-w-md mx-8">
-            {/* Search placeholder - actual filtering is in ProductList */}
-
             <div className="relative w-full">
               <input
                 onChange={(e) => handleChange(e)}
@@ -64,7 +62,7 @@ const Header = () => {
             </div>
           </form>
 
-          <button className="relative p-2 text-gray-600 hover:text-indigo-600 transition-colors">
+          <button className="relative p-2 text-gray-600 hover:text-indigo-600 transition-colors cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7"
