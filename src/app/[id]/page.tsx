@@ -14,14 +14,14 @@ const ProductDetails = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setIsLoading(true);
     const loadProducts = async () => {
+      setIsLoading(true);
       const res = await fetch(`https://fakestoreapi.com/products/${id}`);
       const data = await res.json();
       setProduct(data);
+      setIsLoading(false);
     };
     loadProducts();
-    setIsLoading(false);
   }, [id]);
 
   return isLoading ? (
