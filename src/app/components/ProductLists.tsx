@@ -33,7 +33,6 @@ const ProductLists = () => {
   useEffect(() => {
     setFiltered(products);
   }, [products]);
-  // console.log(category);
 
   const handleCategory = async (category: string) => {
     setActiveCategory(category);
